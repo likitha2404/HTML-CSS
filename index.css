@@ -1,0 +1,135 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: #f17171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#part1{
+    height: 670px;
+    width: 100%;
+    background-image: linear-gradient(to right,#f3f6a4,rgb(239, 189, 214));
+    font-family: system-ui, sans-serif;
+}
+#part2{
+    height: 670px;
+    width: 80%;
+    background-image: url("pexels-robin-stickel-70497.jpg");
+    background-repeat: no-repeat;
+    background-size: 80% 670px;
+    background-position: -200px 0px;
+    position: absolute;
+    top:50px;
+    left: 51%;
+}
+#part1>h1{
+    font-size: 60px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+#part1>p{
+    height: 400px;
+    width: 40%;
+    line-height: 30px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    text-align: justify;
+    font-size: larger;
+    
+}
+#part1>button{
+    height: 50px;
+    width: 200px;
+    background-color: #f17171;
+    color: white;
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    border: none;
+    font-size: medium;
+}
+section{
+
+    background-image: linear-gradient(to right,#F2F597,rgb(212, 145, 179));
+    height: 800px;
+    width: 100%;
+}
+#pic1{
+    height: 200px;
+    width: 300px;
+    background-image: url("pexels-rachel-claire-6752433.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    position: absolute;
+    top: 900px;
+    left: 80px;
+}
+#pic2{
+    height: 420px;
+    width: 300px;
+    background-image: url("pexels-mister-mister-3434523.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    position: absolute;
+    left: 410px;
+    top: 900px;
+    
+}
+#pic3{
+    height: 200px;
+    width: 300px;
+    background-image: url("pexels-eva-bronzini-6141651.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    position: absolute;
+    top: 1120px;
+    left: 80px;
+    
+    
+}
+aside{
+    height: 300px;
+    width: 40%;
+    background-color:#f17171 ;
+    position: absolute;
+    top: 950px;
+    left: 51%;
+   
+}
+aside>p{
+    font-family: 'Arial';
+    position: absolute;
+    /* font-weight: bold; */
+    top: 20px;
+    left: 30px;
+}
+
+aside>h1{
+    font-family: 'Arial';
+    font-size: 70px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+aside>:nth-child(3)
+{
+    font-family: 'Arial';
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    /* font-weight: bold; */
+}
